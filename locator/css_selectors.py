@@ -35,3 +35,13 @@ input_1 = driver.find_element(By.CSS_SELECTOR,"input")
 a_list = driver.find_elements(By.TAG_NAME,"a")
 a_1 = driver.find_elements(By.CSS_SELECTOR,"a")
 print(len(a_list))
+
+#by class
+
+    #by id
+
+finally:
+    driver.quit()
+
+#driver.close()
+
